@@ -1,0 +1,42 @@
+*{
+    padding: 10px;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+#box {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    font-size: 20px;
+    height: 70px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#button{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 400px;
+}
+
+#button:hover{
+    transform: scale(1.05);
+}
+

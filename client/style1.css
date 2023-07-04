@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("assets/open.gif");
+    background-repeat: no-repeat;
+    background-size: 1520px 750px;
+}
+
+#heading{
+    font-weight: 200;
+    font-size: 50px;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+h2{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#button{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#explore{
+    margin: 0 auto;
+    padding-left: 690px;
+    padding-top: 400px;
+}
+
+#button:hover{
+    transform: scale(1.05);
+}
+
+#About{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
