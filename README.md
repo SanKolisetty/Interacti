@@ -92,3 +92,5 @@ About Page
 
 # Backend
 [(Back to top)](#table-of-contents)
+
+The backend of the project is developed using Node.js. Express.js, dotenv, cors have been used to send requests made by the user(frontend) to the server. OpenAI's model text-davinci 003 has been used to generate responses to the queries asked by the user.
